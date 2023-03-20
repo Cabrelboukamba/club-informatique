@@ -7,6 +7,7 @@
     <title>Mon premier document html</title>
 </head>
 <body>
+    <a href="header.html">accedez au Header</a><br>
     Bonjour tout le monde !
 <br>
 <a href="page2.html#d1">voir ma div dans ma deuxieme page </a>
@@ -54,7 +55,7 @@
     </dl>
     <h2 id="t3"><u>Lien de pages</u></h2>
     <a href="page2.html">lien vers deuxieme page</a><br>
-    contactez moi a ce numero :<a href="tel: +241 062714732">062714732</a>
+    contactez moi a ce numero :<a href="tel: +241 062714732">062714732</a><br>
    Mail: <a href="mailto:Cabrelboukamba@gmail.com">Cabrelboukamba@gmail.com</a>
    <br>
    <a href="#t1">Element sur bloc</a>
@@ -62,6 +63,86 @@
    <h2><u>Element de ligne</u></h2>
    <h2><u>Image</u></h2>
    <img src="image.jpeg" width="100" height="100" style="border-radius: 50%;" alt="">
+   <h2>Element de tableaux</h2>
+   <table border="5" align="center" bgcolor="blue" cellpadding="5" cellspacing="5" width="100">
+    <tr border="12" bgcolor="yellow" align="center" valign="middle">
+        <td colspan="2">nom & prenom</td><!--colspan permet la fusion des colonnes et rowspan permet la fusion des lignes-->
+        <td>maths</td>
+        <td>physique</td>
+        <td>chimie</td>
+        <td>francais</td>
+    </tr>
+    <tr border="12" bgcolor="red" align="center" valign="middle">
+        <td>nom</td>
+        <td>prenom</td>
+        <td>10</td>
+        <td>11</td>
+        <td>8.5</td>
+        <td>14</td>
+    </tr>
+    <tr border="12" bgcolor="blue" align="center" valign="middle">
+        <td>nom</td>
+        <td>prenom</td>
+        <td>13</td>
+        <td>2</td>
+        <td>8.9</td>
+        <td>10</td>
+    </tr>
+    <tr border="12" bgcolor="orange" align="center" valign="middle">
+        <td>nom</td>
+        <td>prenom</td>
+        <td>4</td>
+        <td>20</td>
+        <td>9</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>total/moyenne</b></td>
+        <td bgcolor="red"><b>9</b></td>
+        <td bgcolor="yellow"><b>7.6</b></td>
+        <td bgcolor="white"><b>9</b></td>
+        <td><b>10.6</b></td>
+    </tr>
+    <tr>
+        <td colspan="5"></td>
+        <td</td>
+        
+    </tr>
+    <h2>Formulaire</h2>
+    <form action="#">
+        <h1>Formulaire CNOU</h1>
+        <label for="nom">Nom & prenom</label><br>
+        <input type="text" name="nom" placeholder="nom et prnom" id="nom"><br>
+        <label for="">sexe</label><br>
+        <input type="radio">Homme<br>
+        <input type="radio">Femme <br>
+        Age <br>
+        <input type="number" placeholder="Age" min="14" max="70"><br>
+        Tickets
+        <select name="nmbrTicket" id="" placeholder="nombre de tickets">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select><br>
+        Accompagnements <br>
+        <input type="checkbox">Bananes <br>
+        <input type="checkbox">Riz <br>
+        <input type="checkbox">Manioc <br>
+        Paiements <br>
+        <input type="radio">Airtel money <br>
+        <input type="radio">A la main <br>
+        <input type="radio">Moov money <br>
+        Remarque <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea><br>
+        <button type="submit">Payer</button>
+        <button type="reset">Annuler</button>
+
+
+    </form>
+    
+    
+   </table>
 
 </body>
 </html>
