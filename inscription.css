@@ -1,0 +1,41 @@
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 388px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px;
+    background-color: rgb(29, 15, 43);
+}
+.control input{
+    width: 90%;
+    display: block;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    margin: 1em 0;
+}
+button{
+    width: 95%;
+    display: block;
+    padding: 2%;
+    background-color: rgb(0, 110, 255);
+    border-radius: 10px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    font-family: 'Open sans','Arial', sans-serif;
+    margin: 0;
+    background-color: rgb(16, 22, 24);
+}
+#passView.active::before{
+    content: '\f070';
+    color: #5256ad;
+}

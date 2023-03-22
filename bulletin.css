@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#drap{
+    margin-left: 21px;
+}
+.flag{
+    width: 50px;
+    height: 20px;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    margin-top: -4.5px;
+}
+table{
+    margin-top: 10px;
+   
+}
+.bal{
+    color:rgb(0, 225, 255);
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+.tab{
+    border: 2px solid black;
+}
+fieldset{
+    width: 60%;
+    margin-left: 20%;
+    
+    box-shadow: 3px 3px 10px;
+}

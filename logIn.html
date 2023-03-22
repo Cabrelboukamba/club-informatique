@@ -13,11 +13,11 @@
             <img src="profil.jpg" alt="" style="border-radius: 50%; width: 30%; height: 30%;">
         </div>
         <div class="control">
-            <label for="email">Email*</label><br>
+            <label for="email">Email<b style="color: red;">*</b></label><br>
             <input type="email" name="email" id="email" required>
         </div>
         <div class="control">
-            <label for="password">Password*</label><br>
+            <label for="password">Password<b style="color: red;">*</b></label><br>
             <input type="password" id="password" name="password" required>
         </div>
         <input type="checkbox" name="passView" id="passView">
@@ -25,6 +25,20 @@
         <button>Log In</button><br>
         <a href="#">Forgot password?</a>
     </form>
+    <script>
+        let input = document.getElementById("password");
+        let showBtn = document.getElementById("passView");
+        showBtn.onclick = function(){
+            if(input.type == "password"){
+                input.type = "text";
+                showBtn.classList.add("active");
+
+            }else{
+                input.type = "password";
+            }
+        }
+
+    </script>
         
 </body>
 </html>
